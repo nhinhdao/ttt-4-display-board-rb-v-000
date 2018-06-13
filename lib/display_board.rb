@@ -15,4 +15,6 @@ end
 
 display_board
 
+puts "\n"
+
 display_board(board)
