@@ -15,4 +15,5 @@ def display_board(board = box)
 end
 
 display_board
+
 display_board(board)
