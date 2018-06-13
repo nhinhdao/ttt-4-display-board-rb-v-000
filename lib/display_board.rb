@@ -1,7 +1,7 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-box = Array.new(9, "   ")
+box =["   ","   ","   ","   ","   ","   ","   ","   ","   ",]
 
 board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 
