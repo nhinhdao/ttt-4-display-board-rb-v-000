@@ -1,10 +1,12 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 
-# board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
+box = Array.new(9, "   ")
+
+board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
 
 
-def display_board(board)
+def display_board(board = box)
       puts " #{board[0]} #{'|'} #{board[1]} #{'|'} #{board[2]} "
       puts "-----------"
       puts " #{board[3]} #{'|'} #{board[4]} #{'|'} #{board[5]} "
